@@ -24,15 +24,15 @@ This Unity-based mobile game presents players with 10 progressively challenging 
 ## Repository Structure
 
 This repository contains the `Assets` folder from the Unity project, including all scripts, scenes, prefabs, and resources.
-Assets/
-├── Scenes/              (10 puzzle levels + UI scenes)
-├── Scripts/             (All C# gameplay and system scripts)
-│   ├── HintManagement/  (HintManager.cs, HintManager1.cs, etc.)
-│   ├── PuzzleMechanics/ (Drag, touch, input interaction scripts)
-│   └── Utility/         (Scene loading, video playback)
-├── Prefabs/             (UI elements, game objects)
-├── Resources/           (Video ads, images, assets)
-└── ...
+
+**Folder Organization:**
+- **Scenes/** - 10 puzzle levels + UI scenes
+- **Scripts/** - All C# gameplay and system scripts
+  - HintManagement/ - HintManager.cs, HintManager1.cs, etc.
+  - PuzzleMechanics/ - Drag, touch, input interaction scripts
+  - Utility/ - Scene loading, video playback
+- **Prefabs/** - UI elements, game objects
+- **Resources/** - Video ads, images, assets
 
 **To run this project:**
 1. Create a new Unity project (Unity 2021.3+ recommended)
@@ -224,4 +224,5 @@ Player needs hint → Check hint availability → Show ad prompt
 
 **Developed by:** Muhammad Zulhanif Bin Zairudin  
 **Project Type:** Final Year Project - Computer Science  
+
 **Focus:** Game Development, Monetization Research, Mobile UX
